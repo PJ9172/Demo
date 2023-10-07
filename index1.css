@@ -1,0 +1,425 @@
+body{
+    background-color: rgb(35,35,32);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.topimg{
+    height: 700px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.8) 100%),url("./img/top.jpg");
+}
+.nav{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    background: none;
+    margin-top: -10px;
+}
+.logo{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+.logo img{
+    margin-left: 140px;
+}
+.btn{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+.btn .signin{
+    background-color: #db101a;
+    border: none;
+    margin-left: 30px;
+}
+.btn .signin:hover{
+    background-color: #C11119;
+}
+.btn button{
+    /* height: 25px; */
+    color: white;
+    border: 1px solid #747474;
+    background-color: #111010;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+/* middle content */
+.heading{
+    /* border: 1px solid white; */
+    margin-top: 110px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: white;
+    text-align: center;
+}
+.heading .p1{
+    font-weight: 900;
+    font-size: 48px;
+    font-style: normal;
+}
+.heading .p2{
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -30px;
+}
+.heading .p3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading input{
+    height: 45px;
+    width: 350px;
+    margin-top: -3px;
+    background-color: black;
+    opacity: 0.95;
+    border: 1px solid #8f8e8d;
+    color: white;
+    padding-left: 12px;
+}
+.heading button{
+    height: 45px;
+    background-color: #db101a;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.heading input ::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+
+/* d1 */
+.d1{
+    /* border: 1px solid white; */
+    background-color: black;
+    height: 500px;
+    margin-top: 10px;
+    align-items: center;
+    color: white;
+    /* justify-content: center; */
+    display: flex;
+}
+.d1 .sd1{
+    /* border: 1px solid white; */
+    text-align: justify;
+    padding-left: 170px;
+}
+.d1 .sd1 .p1{
+    font-size: 48px;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+.d1 .sd1 .p2{
+    margin-top: -15px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+.d1 .sd2{
+    /* border: 1px solid white; */
+    margin-left: 50px;
+}
+.d1 .sd2 img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/* d2 */
+.d2{
+    /* border: 1px solid white; */
+    background-color: black;
+    height: 500px;
+    margin-top: 10px;
+    /* align-items: center; */
+    color: white;
+    /* justify-content: center; */
+    display: flex;
+    padding-top: 80px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI",sans-serif;
+}
+.d2 .sd1{
+    /* border: 1px solid white; */
+    padding-left: 150px;
+}
+.d2 .sd2{
+    /* border: 1px solid white; */
+    margin-left: 10px;
+}
+.d2 .sd2 .p1{
+    font-weight: 900;
+    font-size: 48px;
+    font-style: normal;
+    margin-top: 120px;
+
+}
+.d2 .sd2 .p2{
+    font-weight: 900;
+    font-size: 48px;
+    font-style: normal;
+    margin-top: -55px;
+}
+.d2 .sd2 .p3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -35px;
+}
+.d2 .sd2 .p4{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -25px;
+}
+
+
+/* d3 */
+.d3{
+    /* border: 1px solid white; */
+    background-color: black;
+    height: 500px;
+    margin-top: 10px;
+    /* align-items: center; */
+    color: white;
+    /* justify-content: center; */
+    display: flex;
+}
+.d3 .sd1{
+    /* border: 1px solid white; */
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.d3 .sd1 .p1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.d3 .sd1 .p2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -30px;
+}
+.d3 .sd1 .p3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: -30px;
+}
+.d3 .sd2{
+    /* border: 1px solid white; */
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png");
+    width: 500px;
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.d3 audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+* {
+    letter-spacing: 0!important;
+}
+.d3 video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 305px;
+    /* border: 1px solid white; */
+    margin-top: 22px;
+    margin-left: 95px;
+}
+
+
+
+/* d4 */
+.d4{
+    /* border: 1px solid white; */
+    height: 500px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.d4 .sd1{
+    /* border: 1px solid white; */
+    margin-left: 130px;
+    margin-top: 80px;
+}
+.d4 .sd2{
+    /* border: 1px solid white; */
+    margin-top: 90px;
+}
+.d4 .sd2 .p1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.d4 .sd2 .p2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -50px;
+}
+.d4 .sd2 .p3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+.d4 .sd2 .p4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+
+/* d5 */
+.d5{
+    /* border: 1px solid white; */
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 80px;
+}
+.d5 .sd1{
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.d5 .sd1 .p1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.d5 .question{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    border: none;
+    background-color: #252525;
+    margin-top: 10px;
+    align-items: center;
+}
+.d5 .question :hover{
+    background-color: #414141;
+}
+.d5 .question .q1{
+    /* border: 1px solid wheat; */
+    text-align: left;
+    width: 80%;
+}
+.d5 .question .q2{
+     /* border: 1px solid wheat;  */
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+}
+.qp1{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.d5 .sd1 .p2{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.d5 input{
+    height: 45px;
+    width: 350px;
+    background-color: black;
+    opacity: 0.95;
+    border: 1px solid #8f8e8d;
+    color: white;
+}
+.d5 button{
+    height: 45px;
+    background-color: #db101a;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.d5 input ::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 450px;
+    border: 0.1px solid black;
+    background-color: black;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer .sd1{
+    /* border: 1px solid wheat; */
+    margin-left: 170px;    
+    margin-top: 60px;
+}
+.footer .sd1 .p1{
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer .sd1 table{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -10px;
+}
+td{
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+u{
+    cursor: pointer;
+}
+.footer .sd1 button{
+    color: white;
+    border: 1px solid #747474;
+    background-color: #111010;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 20px;
+}
+.footer .sd1 .p2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
